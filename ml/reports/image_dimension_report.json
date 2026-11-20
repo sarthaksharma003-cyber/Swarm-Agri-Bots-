@@ -1,0 +1,12 @@
+{
+  "total_images": 1300,
+  "dimension_counts": {
+    "512x512_RGB": 1300
+  },
+  "file_size_bytes": {
+    "min": 37852,
+    "max": 96329,
+    "mean": 63581.5,
+    "median": 63128
+  }
+}

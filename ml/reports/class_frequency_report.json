@@ -1,0 +1,29 @@
+{
+  "class_mapping": {
+    "0": "crop",
+    "1": "weed"
+  },
+  "total_bounding_boxes": 2072,
+  "class_frequencies_overall": {
+    "crop": 1212,
+    "weed": 860
+  },
+  "class_percentages_overall": {
+    "crop": 58.49,
+    "weed": 41.51
+  },
+  "split_class_distribution": {
+    "train": {
+      "crop": 945,
+      "weed": 691
+    },
+    "val": {
+      "crop": 117,
+      "weed": 82
+    },
+    "test": {
+      "crop": 150,
+      "weed": 87
+    }
+  }
+}

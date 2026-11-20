@@ -1,0 +1,19 @@
+{
+  "total_source_images": 1300,
+  "valid_images": 1300,
+  "corrupted_images_count": 0,
+  "corrupted_images": [],
+  "orphaned_images_count": 0,
+  "orphaned_labels_count": 0,
+  "total_annotations": 2072,
+  "valid_annotations": 2072,
+  "invalid_annotations_count": 0,
+  "invalid_annotations": [],
+  "unique_file_hashes": 1300,
+  "exact_file_duplicate_groups": 0,
+  "unique_pixel_hashes": 1300,
+  "exact_pixel_duplicate_groups": 0,
+  "identical_dhash_groups": 95,
+  "near_duplicate_pairs_count": 494,
+  "data_quality_status": "PASSED"
+}

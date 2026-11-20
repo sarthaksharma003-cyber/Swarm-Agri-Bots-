@@ -1,0 +1,162 @@
+{
+  "model_architecture": "yolo11n",
+  "pretrained_weights": "yolo11n.pt",
+  "dataset_yaml": "/home/smasher/Desktop/swarmagri-ai/data/processed/yolo_dataset/data.yaml",
+  "classes": {
+    "0": "crop",
+    "1": "weed"
+  },
+  "training_parameters": {
+    "epochs_requested": 10,
+    "epochs_completed": 10,
+    "batch_size": 4,
+    "image_size": 512,
+    "patience": 5,
+    "seed": 42,
+    "device": "cpu",
+    "workers": 2
+  },
+  "timing": {
+    "elapsed_seconds": 2670.65,
+    "elapsed_minutes": 44.51
+  },
+  "artifacts": {
+    "run_dir": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/run_10epochs",
+    "best_checkpoint": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/run_10epochs/weights/best.pt",
+    "last_checkpoint": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/run_10epochs/weights/last.pt",
+    "primary_best": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/best.pt",
+    "results_csv": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/run_10epochs/results.csv"
+  },
+  "epoch_metrics": [
+    {
+      "epoch": 1,
+      "train_box_loss": 1.3443,
+      "train_cls_loss": 2.0742,
+      "train_dfl_loss": 1.7243,
+      "val_box_loss": 1.4648,
+      "val_cls_loss": 1.6611,
+      "val_dfl_loss": 1.9005,
+      "precision": 0.5782,
+      "recall": 0.6558,
+      "map50": 0.6184,
+      "map50_95": 0.3164
+    },
+    {
+      "epoch": 2,
+      "train_box_loss": 1.3742,
+      "train_cls_loss": 1.3687,
+      "train_dfl_loss": 1.7137,
+      "val_box_loss": 1.5438,
+      "val_cls_loss": 1.3799,
+      "val_dfl_loss": 1.8425,
+      "precision": 0.6897,
+      "recall": 0.6247,
+      "map50": 0.713,
+      "map50_95": 0.3911
+    },
+    {
+      "epoch": 3,
+      "train_box_loss": 1.3372,
+      "train_cls_loss": 1.2756,
+      "train_dfl_loss": 1.6948,
+      "val_box_loss": 1.5585,
+      "val_cls_loss": 1.5303,
+      "val_dfl_loss": 1.8189,
+      "precision": 0.539,
+      "recall": 0.7016,
+      "map50": 0.5749,
+      "map50_95": 0.2974
+    },
+    {
+      "epoch": 4,
+      "train_box_loss": 1.3005,
+      "train_cls_loss": 1.2092,
+      "train_dfl_loss": 1.6526,
+      "val_box_loss": 1.3694,
+      "val_cls_loss": 1.1668,
+      "val_dfl_loss": 1.6714,
+      "precision": 0.8479,
+      "recall": 0.678,
+      "map50": 0.7768,
+      "map50_95": 0.4558
+    },
+    {
+      "epoch": 5,
+      "train_box_loss": 1.2615,
+      "train_cls_loss": 1.0957,
+      "train_dfl_loss": 1.6173,
+      "val_box_loss": 1.4193,
+      "val_cls_loss": 1.0934,
+      "val_dfl_loss": 1.6975,
+      "precision": 0.7779,
+      "recall": 0.7406,
+      "map50": 0.8266,
+      "map50_95": 0.4814
+    },
+    {
+      "epoch": 6,
+      "train_box_loss": 1.2201,
+      "train_cls_loss": 1.0121,
+      "train_dfl_loss": 1.5748,
+      "val_box_loss": 1.2954,
+      "val_cls_loss": 1.0726,
+      "val_dfl_loss": 1.5975,
+      "precision": 0.8986,
+      "recall": 0.6924,
+      "map50": 0.8422,
+      "map50_95": 0.5191
+    },
+    {
+      "epoch": 7,
+      "train_box_loss": 1.1462,
+      "train_cls_loss": 0.946,
+      "train_dfl_loss": 1.506,
+      "val_box_loss": 1.2591,
+      "val_cls_loss": 1.0739,
+      "val_dfl_loss": 1.5404,
+      "precision": 0.7965,
+      "recall": 0.7663,
+      "map50": 0.8192,
+      "map50_95": 0.5121
+    },
+    {
+      "epoch": 8,
+      "train_box_loss": 1.1066,
+      "train_cls_loss": 0.8751,
+      "train_dfl_loss": 1.4774,
+      "val_box_loss": 1.2095,
+      "val_cls_loss": 0.9499,
+      "val_dfl_loss": 1.5218,
+      "precision": 0.8232,
+      "recall": 0.8246,
+      "map50": 0.86,
+      "map50_95": 0.5404
+    },
+    {
+      "epoch": 9,
+      "train_box_loss": 1.1034,
+      "train_cls_loss": 0.8157,
+      "train_dfl_loss": 1.4746,
+      "val_box_loss": 1.2169,
+      "val_cls_loss": 0.9708,
+      "val_dfl_loss": 1.4928,
+      "precision": 0.8314,
+      "recall": 0.8334,
+      "map50": 0.8546,
+      "map50_95": 0.5457
+    },
+    {
+      "epoch": 10,
+      "train_box_loss": 1.0447,
+      "train_cls_loss": 0.7773,
+      "train_dfl_loss": 1.4231,
+      "val_box_loss": 1.1986,
+      "val_cls_loss": 0.9647,
+      "val_dfl_loss": 1.48,
+      "precision": 0.7992,
+      "recall": 0.7948,
+      "map50": 0.8425,
+      "map50_95": 0.5393
+    }
+  ]
+}

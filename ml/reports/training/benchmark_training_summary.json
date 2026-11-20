@@ -1,0 +1,29 @@
+{
+  "model_architecture": "yolo11n",
+  "pretrained_weights": "yolo11n.pt",
+  "dataset_yaml": "/home/smasher/Desktop/swarmagri-ai/data/processed/yolo_dataset/data.yaml",
+  "classes": {
+    "0": "crop",
+    "1": "weed"
+  },
+  "training_parameters": {
+    "epochs_requested": 1,
+    "batch_size": 4,
+    "image_size": 512,
+    "patience": 10,
+    "seed": 42,
+    "device": "cpu",
+    "workers": 2
+  },
+  "timing": {
+    "elapsed_seconds": 303.55,
+    "elapsed_minutes": 5.06
+  },
+  "artifacts": {
+    "run_dir": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/test_epoch1",
+    "best_checkpoint": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/test_epoch1/weights/best.pt",
+    "last_checkpoint": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/test_epoch1/weights/last.pt",
+    "primary_best": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/best.pt",
+    "results_csv": "/home/smasher/Desktop/swarmagri-ai/ml/models/yolo11n/test_epoch1/results.csv"
+  }
+}
